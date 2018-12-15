@@ -2,12 +2,18 @@
 This repository compiles different exercises for scholars of the Deep Learning nanodegree from Udacity that want to go the extra mile.
 
 Diving further into the different topics of the course and notebook exercises from the nanodegree [repo](https://github.com/frgfm/deep-learning-v2-pytorch), you can find the following exercises for each lesson:
-- Lesson 2 (NN): create the building blocks for your own MLP in numpy (notebooks: mlp_basics, full_mlp)
-- Lesson 4 (PyTorch): coming soon
-- Lesson 5 (CNN): coming soon
-- Lesson 6 (Style Transfer): coming soon
-- Lesson 7 (RNN): coming soon
-- Lesson 8 (Sentiment Analysis): coming soon
+
+### Lesson 2 (Neural networks)
+Create the building blocks for your own MLP in numpy by completing two challenges:
+- Feed-forward MLP ([notebook](https://github.com/frgfm/udacity-dl-exercises/blob/master/2-nn/mlp_basics.ipynb))
+- Full MLP backpropagation ([notebook](https://github.com/frgfm/udacity-dl-exercises/blob/master/2-nn/full_mlp.ipynb))
+
+### Other lessons (coming soon)
+- Lesson 4 (PyTorch)
+- Lesson 5 (Convolutional Neural Network)
+- Lesson 6 (Style Transfer)
+- Lesson 7 (Recurrent Neural Network)
+- Lesson 8 (Sentiment Analysis)
 
 ## Requirements
 The numpy, matplotlib, torch and torchvision packages are required to properly use the repo.
