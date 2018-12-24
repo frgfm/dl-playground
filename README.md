@@ -1,7 +1,7 @@
 # Advanced exercises for Udacity Deep Learning scholars
-This repository compiles different exercises for scholars of the Deep Learning nanodegree from Udacity that want to go the extra mile.
+This repository compiles different exercises for scholars of the Deep Learning nanodegree from Udacity that want to go the extra mile. This material is not required for Udacity DL phases completion, and will not be counted as an extra in their consideration.
 
-Diving further into the different topics of the course and notebook exercises from the nanodegree [repo](https://github.com/frgfm/deep-learning-v2-pytorch), you can find the following exercises for each lesson:
+Diving further into the different topics of the course and notebook exercises from the nanodegree [repo](https://github.com/frgfm/deep-learning-v2-pytorch), you can find the following exercises for each lesson.
 
 ### Lesson 2 (Neural networks)
 Create the building blocks for your own MLP in numpy by completing two challenges:
