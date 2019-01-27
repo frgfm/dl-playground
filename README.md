@@ -1,35 +1,42 @@
-# Advanced exercises for Udacity Deep Learning scholars
-This repository compiles different exercises for scholars of the Deep Learning nanodegree from Udacity that want to go the extra mile. This material is not required for Udacity DL phases completion, and will not be counted as an extra in their consideration.
+# Deep Learning playground
+This repository compiles different challenges for deep learning enthusiasts. It was initially dedicated to Udacity scholars from the Deep Learning nanodegree.
 
 Diving further into the different topics of the course and notebook exercises from the nanodegree [repo](https://github.com/frgfm/deep-learning-v2-pytorch), you can find the following exercises for each lesson.
 
-### Lesson 2 (Neural networks)
+### Neural Network building blocks
 Create the building blocks for your own MLP in numpy by completing two challenges:
-- Feed-forward MLP ([notebook](https://github.com/frgfm/udacity-dl-exercises/blob/master/2-nn/mlp_basics.ipynb))
-- Full MLP backpropagation ([notebook](https://github.com/frgfm/udacity-dl-exercises/blob/master/2-nn/full_mlp.ipynb))
+- Feed-forward MLP ([notebook](https://github.com/frgfm/udacity-dl-exercises/blob/master/nn-basics/mlp_basics.ipynb))
+- Full MLP back-propagation ([notebook](https://github.com/frgfm/udacity-dl-exercises/blob/master/nn-basics/full_mlp.ipynb))
 
-### Other lessons (coming soon)
-- Lesson 4 (PyTorch)
-- Lesson 5 (Convolutional Neural Network)
-- Lesson 6 (Style Transfer)
-- Lesson 7 (Recurrent Neural Network)
-- Lesson 8 (Sentiment Analysis)
+### Convolutional neural networks
+
+Implementing convolutional layers as part of your layer portfolio with numpy by completing two challenges:
+
+- Convolutional layers (being finalized)
+- Layer activation visualization (coming soon)
+
+### Next upcoming challenges
+- Optimizers
+- Regularization
+- Style Transfer
+- Recurrent Neural Networks
+- Generative Adversarial Networks
+- Deep Reinforcement Learning
 
 ## Requirements
-The numpy, matplotlib, torch and torchvision packages are required to properly use the repo.
+The numpy and matplotlib packages are required to properly use the repo.
 Tested on the following version:
+
 ```python
 import sys
-import numpy, matplotlib, torch, torchvision
+import numpy, matplotlib
 print('Python %s' % '.'.join(map(str, sys.version_info[:3])))
-print(f'Numpy {numpy.__version__}, Matplotlib {matplotlib.__version__}, PyTorch {torch.__version__}, Torchvision {torchvision.__version__}')
+print(f'Numpy {numpy.__version__}, Matplotlib {matplotlib.__version__}')
 ```
 ```console
 Python 3.6.5
-Numpy 1.15.4, Matplotlib 2.2.3, PyTorch 1.0.0, Torchvision 0.2.1
+Numpy 1.15.4, Matplotlib 2.2.3
 ```
-
-Please refer to PyTorch/Torchvision installation [instructions](https://pytorch.org/get-started/locally/) if you haven't installed them yet.
 
 
 ## How to use it
@@ -69,9 +76,9 @@ Example: [Request] Creating an exercise illustrating dropout
 
 
 ## TODO
-- [x] Lesson 2
-- [ ] Lesson 4
-- [ ] Lesson 5
-- [ ] Lesson 6
-- [ ] Lesson 7
-- [ ] Lesson 8
+- [x] NN Basics
+- [ ] CNN
+- [ ] Optimizers
+- [ ] Regularization
+- [ ] Reinforcement Learning
+- [ ] GANs
